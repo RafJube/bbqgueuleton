@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="66" viewBox="0 0 50 66">
+  <g id="Groupe_57" data-name="Groupe 57" transform="translate(-186 -2)">
+    <g id="Groupe_52" data-name="Groupe 52" transform="translate(186.473 -2.632)">
+      <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(-0.473 12.632)" stroke="#fff" stroke-width="2">
+        <circle cx="25" cy="25" r="25" stroke="none"/>
+        <circle cx="25" cy="25" r="24" fill="none"/>
+      </g>
+      <text id="_" data-name="+" transform="translate(24.527 56.632)" fill="#fff" font-size="54" font-family="Montserrat-Regular, Montserrat"><tspan x="-15" y="-5">+</tspan></text>
+    </g>
+  </g>
+</svg>

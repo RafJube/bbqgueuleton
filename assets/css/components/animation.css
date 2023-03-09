@@ -1,0 +1,138 @@
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Animation for introduction logo and video */
+@keyframes logoScale {
+  from {
+    scale: 0.4
+  }
+  to {
+    scale: 1
+  }
+}
+.logo-animation {
+  animation: 1s ease-in-out logoScale;
+}
+.video-wrapper {
+  scale: 0.9;
+  transition: 1s ease-in-out;
+}
+.video-animation {
+  scale: 1;
+  transition: 1s ease-in-out;
+}
+
+/* Animation for cuissons cards */
+.cards-animation-container {
+  position: relative;
+  width: 100%;
+  animation-fill-mode: both;
+}
+@keyframes bottomFadeOut {
+  from {
+    transform: translateY(15vh);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.cards-animation-1 {
+  opacity: 1;
+  animation:
+    0.7s ease-out bottomFadeOut,
+    0s linear opacity;
+}
+.cards-animation-2 {
+  opacity: 1;
+  animation:
+    0.7s ease-out 0.3s bottomFadeOut,
+    0.3s linear opacity;
+}
+.cards-animation-3 {
+  opacity: 1;
+  animation:
+    0.7s ease-out 0.6s bottomFadeOut,
+    0.6s linear opacity;
+}
+.cards-animation-4 {
+  opacity: 1;
+  animation:
+    0.7s ease-out 0.9s bottomFadeOut,
+    0.9s linear opacity;
+}
+
+/* Animation for barbecue */
+.barbecue-container {
+  position: relative;
+  animation-fill-mode: both;
+}
+@keyframes scale {
+  from {
+    scale: 0;
+  }
+  to {
+    scale: 1;
+  }
+}
+.barbecue-animation {
+  opacity: 1;
+  animation:
+    1s ease-out 0.3s scale,
+    0.3s linear opacity;
+  z-index: 1;
+}
+.visible {
+  display: flex !important;
+}
+.hidden {
+  display: none !important;
+}
+
+.scrolled {
+  display: none;
+}
+
+@keyframes infinite-move {
+  from {
+    margin-left: -22vw;
+  }
+  to {
+    margin-left: 122vw;
+  }
+}
+@keyframes infinite-move-mobile {
+  from {
+    margin-left: -70vw;
+  }
+  to {
+    margin-left: 170vw;
+  }
+}
+
+/* Animation for moving titles */
+.animated-title-container {
+  width: 122vw;
+  margin-left: -22vw;
+  position: absolute;
+  top: 40%;
+  overflow: hidden;
+}
+.animated-title {
+  width: 44vw;
+  animation: 20s linear 0s infinite infinite-move;
+}
+.animated-title-container.barbecue{
+  top: 82%;
+}
+.animated-title-container.desserte{
+  top: 40%;
+}

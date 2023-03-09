@@ -1,0 +1,17 @@
+.video-container {
+  height: 30vw;
+  width: 99vw;
+  overflow: visible;
+  margin-top: 7vw;
+}
+.video-wrapper {
+  height: 50vw;
+  width: 100%;
+  overflow: hidden;
+}
+#video {
+  height: 55vw;
+  width: 100%;
+  /* width: 231%; */
+  /* margin-left: -64%; */
+}

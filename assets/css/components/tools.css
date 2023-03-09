@@ -1,0 +1,128 @@
+.barbecue-background {
+  width: min(98vh, 98vw);
+  height: min(98vh, 98vw);
+  border-radius: 50%;
+  background: linear-gradient(0deg, #C5B096, #FFEDD8);
+  position: relative;
+}
+.image-interactive {
+  background: transparent url('../../images/technique.webp') 35% 60% no-repeat padding-box;
+  background-size: 80%;
+  width: min(98vh, 98vw);
+  height: min(98vh, 98vw);
+  border-radius: 50%;
+  position: relative;
+}
+
+.barbecue-info {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: max(12px, calc(1vw * 18/19.2));
+  color: #000000;
+  line-height: 1em;
+  display: none;
+}
+
+.black-cross{
+  width: 15%;
+  height: 15%;
+  margin: 5px;
+}
+
+.barbecue-tag {
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 21%;
+}
+
+.barbecue-tag:hover .barbecue-info {
+  display: flex;
+  align-items: center;
+}
+
+#manivelle {
+  justify-content: end;
+  top: 20%;
+  left: 13%;
+  width: 21%;
+}
+#manivelle:hover .barbecue-info {
+  text-align: end;
+}
+#tige {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 40%;
+  bottom: 76%;
+}
+#tige .barbecue-info {
+  margin-bottom: 15%;
+  display: flex;
+  visibility: hidden;
+  text-align: center;
+}
+#tige:hover .barbecue-info {
+  visibility: visible;
+}
+#tournebroche {
+  justify-content: start;
+  top: 25%;
+  left: 64%;
+}
+#tournebroche .barbecue-info {
+  margin-left: 25%;
+}
+#grille {
+  justify-content: start;
+  top: 33%;
+  left: 70%;
+}
+#grille .barbecue-info {
+  margin-left: 9%;
+}
+#recuperateur {
+  justify-content: start;
+  top: 51%;
+  left: 71%;
+}
+#tablette {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 46%;
+  left: 8%;
+}
+#bac {
+  justify-content: end;
+  top: 57%;
+  left: 12%;
+}
+#bac:hover .barbecue-info {
+  text-align: end;
+}
+#roues {
+  justify-content: end;
+  top: 74%;
+  left: 12%;
+}
+#roues:hover .barbecue-info {
+  text-align: end;
+}
+#cuve {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 73%;
+  left: 46%;
+}
+#cuve .barbecue-info {
+  color: #FFFFFF;
+}
+
+#mobile-caracteristiques {
+  display: none;
+
+}

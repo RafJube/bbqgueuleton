@@ -1,0 +1,94 @@
+.cards {
+  display: flex;
+  padding: 10% 2% 10% 2%;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+#origine .cards, #accessoires .cards {
+  padding: 5% 2% 6% 2%;
+}
+
+.cards-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 45%;
+  position: relative;
+  height: 100%;
+}
+.cards-text.left {
+  padding-left: 5%;
+}
+.cards-text.right {
+  padding-left: 5%;
+}
+.cards-text h1 {
+  text-align: start;
+  padding: 0 !important;
+}
+.cards-text h2 {
+  padding: 1vh 0 !important;
+  text-align: start;
+}
+.cards-text h3 {
+  width: 77%;
+}
+.cards-text h4 {
+  width: 69%;
+  padding: 1vh 0 1vh 3vh !important;
+}
+.cards-text h5 {
+  width: 82%;
+}
+.cards-text h6 {
+  width: 85%;
+}
+.cards-text .limit-container {
+  position: relative;
+  margin: 2vw 0;
+  min-width: 25px;
+}
+.cards-text .limit {
+  position: absolute;
+  left: -25px;
+  border-bottom: 1px solid #D5C1A9;
+  width: 110px;
+}
+.cross {
+  margin-top: 5vh;
+}
+
+.cross img {
+  width: 20px;
+  height: 20px;
+}
+
+.cards-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  width: 45%;
+  position: relative;
+}
+
+.cards-image img {
+  width: 100%;
+  z-index: 1;
+}
+.cards-image p {
+  font-weight: 300;
+  color: #C5B096;
+  font-size: calc(1vw * 15/19.2);
+  writing-mode: vertical-rl;
+  text-orientation:sideways-right;
+  transform: rotate(180deg);
+  margin-bottom: 0;
+}
+.cards-background {
+  position: absolute;
+  bottom: -15%;
+  right: -40%;
+}
